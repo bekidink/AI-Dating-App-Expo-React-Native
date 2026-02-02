@@ -124,21 +124,6 @@ Think of Heartly as a **Tinder-style dating app with an AI matchmaker built in**
 - Authentication flows with Clerk
 - Production deployment with EAS
 
-### PAPAFAM Community Benefits
-
-- Live coding sessions & tutorials
-- Discord community for Q&A
-- Code reviews & feedback
-- Early access to new projects
-- Career guidance & mentorship
-
-### Join the Course
-
-[**www.papareact.com/course**](https://www.papareact.com/course)
-
-### Get the Source Code
-
-[**Download the source code here**](https://www.papareact.com/ai-dating-build-form)
 
 ---
 
@@ -234,7 +219,7 @@ Before you begin, make sure you have:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sonnysangha/AI-Dating-App-Expo-SDK-55-Clerk-Convex-OpenAI
+git clone https://github.com/bekidink/AI-Dating-App-Expo-React-Native.git
 cd AI-Dating-App-Expo-SDK-55-Clerk-Convex-OpenAI
 ```
 
@@ -539,34 +524,7 @@ Ready to level up? Here are some features you can add:
 - **Boost** - Temporarily increase visibility
 - **Super Likes** - Pay for more daily super likes
 
----
 
-## License & Legal
-
-This project is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
-
-### You CAN
-
-- Use this code for **learning and personal projects**
-- Modify and build upon it
-- Share it with attribution
-
-### You CANNOT
-
-- Use it for **commercial purposes**
-- Sell or monetize apps built with this code
-- Remove attribution
-
-### Trademark Notice
-
-- This is an **educational clone** for learning purposes only
-- We make **no trademark claims** on app concepts, designs, or features
-- Any resemblance to existing products is for educational demonstration
-- For concerns, please open an issue or contact us directly
-
-See [LICENSE.md](LICENSE.md) for full details.
-
----
 
 ## Quick Reference
 
@@ -594,30 +552,3 @@ npx convex deploy
 # Lint code
 pnpm lint
 ```
-
-### Key Files
-
-| File | Purpose |
-|------|---------|
-| `convex/schema.ts` | Database schema definition |
-| `convex/matches.ts` | AI matching logic |
-| `convex/lib/openai.ts` | OpenAI integration |
-| `app/(app)/(tabs)/_layout.tsx` | Tab navigation with Liquid Glass |
-| `lib/theme.ts` | Material 3 theming |
-| `hooks/useCurrentUser.ts` | Current user hook |
-
-### Important Concepts
-
-| Concept | Location |
-|---------|----------|
-| Vector embeddings | `convex/users.ts` - `updateUserWithEmbedding` |
-| Compatibility check | `convex/lib/compatibility.ts` |
-| Daily picks generation | `convex/matches.ts` - `generateDailyPicks` |
-| Swipe logic | `convex/swipes.ts` - `createSwipe` |
-| Real-time chat | `convex/messages.ts` |
-
----
-
-**Built with love for the PAPAFAM community**
-
-[www.papareact.com](https://www.papareact.com)
